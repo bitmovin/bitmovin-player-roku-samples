@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BasicPlayback" extends="Scene">
+    <children>
+      <Selection id="SelectionScreen" />
+    </children>
+    <script type="text/brightscript" uri="pkg:/components/BasicPlayback.brs" />
+</component>

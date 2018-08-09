@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="Selection" extends="Group">
+  <children>
+    <RowList
+      id="SelectionRow"
+      itemSize="[1920, 400]"
+      rowItemSize="[[700,400]]"
+      rowItemSpacing="[[200,0]]"
+      rowLabelColor="0x333333"
+      numRows="1"
+      showRowCounter="[false]"
+      translation="[160,340]" />
+  </children>
+</component>
