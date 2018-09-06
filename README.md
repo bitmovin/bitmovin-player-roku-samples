@@ -15,7 +15,7 @@ Open the manifest file for the sample channel you want to use and add your playe
 
 In order for the license key to validate properly, you must add the channel ID as a domain in the [Bitmovin Dashboard](http://dashboard.bitmovin.com/). In the dashboard, under `Player > Licenses`, add `dev.roku` as a domain. This domain allows side loaded channels to run with this specific player license key. When a channel is published to the store, the domain which needs to be added to the dashboard is `CHANNEL_ID.roku`, where `CHANNEL_ID` is the ID of the submitted channel in the Roku channel store.
 
-To upload and install a channel, zip together the contents of the channel folder (`manifest` file, `source` and `components` directories) and upload it to the Roku device. Upon install, the channel should run immediately.
+To upload and install a channel, zip together the contents of the channel folder (`manifest` file, `source`, `images` and `components` directories) and upload it to the Roku device. Upon install, the channel should run immediately.
 
 The Roku debug console can be accessed using telnet:
 `telnet [Roku IP address] 8085`
