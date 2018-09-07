@@ -88,5 +88,5 @@ sub onSeeked()
 end sub
 
 sub onVideoError()
-  print "ERROR: "; m.bitmovinPlayer.error.code + ": " + m.bitmovinPlayer.error.message
+  print "ERROR: "; m.bitmovinPlayer.error.code.toStr() + ": " + m.bitmovinPlayer.error.message
 end sub
