@@ -21,5 +21,5 @@ The Roku debug console can be accessed using telnet:
 `telnet [Roku IP address] 8085`
 
 ## Documentation And Release Notes
-+ You can find the latest API documentation [here](https://bitmovin.com/roku-sdk-documentation/)
-+ The release notes can be found [here](https://bitmovin.zendesk.com/hc/en-us/articles/360007824474)
++ You can find the latest API documentation [here](https://bitmovin.com/docs/player/api-reference/roku/roku-sdk-api-reference-v1)
++ The release notes can be found [here](https://bitmovin.com/docs/player/releases/roku)
