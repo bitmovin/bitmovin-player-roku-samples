@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "1.0.0",
+    "configurations": [
+      {
+        "type": "brightscript",
+        "request": "launch",
+        "name": "BasicPlayback",
+        "stopOnEntry": false,
+        "host": "${promptForHost}",
+        "password": "${promptForPassword}",
+        "rootDir": "${workspaceFolder}/BasicPlayback/",
+        "sourceDirs": [
+          "${workspaceFolder}/BasicPlayback",
+        ],
+        "enableDebuggerAutoRecovery": true,
+        "stopDebuggerOnAppExit": false,
+        "enableLookupVariableNodeChildren": true,
+        "outDir": "${workspaceFolder}/out",
+        "files": [
+          "manifest",
+          "source/**/*.*",
+          "components/**/*.*",
+          "images/**/*.*"
+        ]
+      }
+    ]
+  }
