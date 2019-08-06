@@ -7,7 +7,7 @@
       {
         "type": "brightscript",
         "request": "launch",
-        "name": "BrightScript Debug: Roku Build and Side Load",
+        "name": "BasicPlayback",
         "stopOnEntry": false,
         "host": "${promptForHost}",
         "password": "${promptForPassword}",
