@@ -1,0 +1,15 @@
+# Channel Details
+title=Sideloaded Thumbnail Scrubbing Single Images
+major_version=1
+minor_version=0
+build_version=0
+
+# Resolution
+ui_resolutions=fhd,hd
+
+# Splash Screen + Loading Screen Artwork
+splash_color=#808080
+splash_min_time=0
+
+# License key
+bitmovin_player_license_key=INSERT-LICENSE-KEY-HERE

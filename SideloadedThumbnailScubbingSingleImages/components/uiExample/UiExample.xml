@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="UiExample" extends="Group">
+  <children>
+    <Group id = "playerStateInfoGroup" visible = "false">
+      <Rectangle
+        id = "playerStateInfoBackground"
+        color = "0x000000"
+        opacity = "0.8"
+        />
+      <Label
+        id="playerStateLabel"
+        height="40"
+        width="0"
+        font="font:LargeBoldSystemFont"
+        color = "0x1fabe2"
+        text = "staling"
+       />
+    </Group>
+    <LayoutGroup id = "uiGroup" layoutDirection = "vert" itemSpacings = "[50]" horizAlignment = "custom" visible = "false">
+      <Poster
+        id = "trickPlayThumbnail"
+        loadingBitmapUri = "pkg:/images/trickplay_placeholder_thumb.jpg"
+        uri = "pkg:/images/trickplay_placeholder_thumb.jpg"
+        visible = "false"
+      />
+      <Group id = "playerGroup">
+        <Rectangle id = "playerBackground" color = "0x1c1c1c" height = "40" opacity = "0.8">
+          <Rectangle id = "progressBarBackground" height = "8" color = "0x666666" >
+            <Rectangle
+              id = "progressBar"
+              color = "0x1fabe2"
+              width = "0"
+              height = "8"
+              inheritParentOpacity = "false"
+            />
+          </Rectangle>
+        </Rectangle>
+      </Group>
+    </LayoutGroup>
+  </children>
+  <interface>
+    <function name="initialize" />
+    <function name="setProgressBarWidth" />
+    <function name="setTrickPlayThumbnailUri" />
+    <function name="setTrickPlayThumbnailVisibility" />
+    <function name="controlPlayerStateInfo" />
+  </interface>
+  <script type="text/brightscript" uri="pkg:/components/uiExample/UiExample.brs" />
+  <script type="text/brightscript" uri="pkg:/source/utils/util.brs" />
+</component>

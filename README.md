@@ -4,6 +4,8 @@ Sample channels for the Bitmovin Player Roku SDK
 ## Available Sample Channels
 + **BasicPlayback**: on channel load will display a simple selection screen of two videos. The Roku remote can be used to select a video. On selection, the video will load and the roku remote or api calls can be used for actions such as play/pause/seek. Hitting the back arrow unloads the video and returns the user to the selection screen.
 
++ **SideloadedThumbnailScubbingSingleImages**: After the player SDK is successfully loaded, the `setup` function will be triggered which will result in video being played. `uiExample` will be used as a custom UI for the player. The Roku remote can be used to fast forward/rewind the video which will in turn result with thumbnail image being shown at appropriate/requested time. The "OK" button can be used to resume the video playback.
+
 ## Running a Sample Channel
 To run a sample channel, you must have a Roku running on the same network as your machine.
 The Roku will need to be set in developer mode. To reach the screen to do this, hit the followings keys on the remote: *Home, Home, Home, Up, Up, Right, Left, Right, Left, Right*.

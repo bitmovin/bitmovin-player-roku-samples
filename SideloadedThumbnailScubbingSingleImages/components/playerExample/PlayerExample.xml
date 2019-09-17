@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="PlayerExample" extends="Scene">
+    <children></children>
+    <script type="text/brightscript" uri="pkg:/components/playerExample/PlayerExample.brs" />
+    <script type="text/brightscript" uri="pkg:/components/playerExample/playerConfigWithSideloadedThumbnailTrack.brs" />
+    <script type="text/brightscript" uri="pkg:/source/utils/util.brs" />
+</component>
