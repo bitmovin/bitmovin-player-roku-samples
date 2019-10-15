@@ -6,6 +6,11 @@ Sample channels for the Bitmovin Player Roku SDK
 
 + **SideloadedThumbnailScubbingSingleImages**: After the player SDK is successfully loaded, the `setup` function will be triggered which will result in video being played. `uiExample` will be used as a custom UI for the player. The Roku remote can be used to fast forward/rewind the video which will in turn result with thumbnail image being shown at appropriate/requested time. The "OK" button can be used to resume the video playback.
 
++ **SideloadedThumbnailScubbingSpriteSheet**: Using `getThumbnail` API with a stream containing thumbnails in the form of sprite sheets. Inside `init` function of `PlayerExample`, task named `BackgroundRunningTask` is started.
+`BackgroundRunningTask` is using the data provided by the `getThumbnail` API to store sprite sheets as well as to crop them in order to get and store thumbnail image for specific time.
+`UiExample` is using the data extracted by the `BackgroundRunningTask` to show the thumbnail image.
+The Roku remote can be used to fast forward/rewind the video which will in turn result with thumbnail image being shown at appropriate/requested time. The "OK" button can be used to resume the video playback.
+
 ## Running a Sample Channel
 To run a sample channel, you must have a Roku running on the same network as your machine.
 The Roku will need to be set in developer mode. To reach the screen to do this, hit the followings keys on the remote: *Home, Home, Home, Up, Up, Right, Left, Right, Left, Right*.

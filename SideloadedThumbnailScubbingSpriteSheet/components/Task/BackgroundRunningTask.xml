@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="BackgroundRunningTask" extends="Task">
+    <interface>
+      <field id="downloadSprite" type="assocarray" alwaysNotify="true" />
+      <field id="downloadSpriteResponse" type="assocarray" alwaysNotify="true" />
+      <field id="writeImage" type="assocarray" alwaysNotify="true" />
+      <field id="writeImageResponse" type="assocarray" alwaysNotify="true" />
+      <field id="deleteImage" type="string" alwaysNotify="true" />
+    </interface>
+  <script type="text/brightscript" uri="pkg:/components/Task/BackgroundRunningTask.brs" />
+</component>
