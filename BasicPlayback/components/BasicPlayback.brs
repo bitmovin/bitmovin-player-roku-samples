@@ -14,7 +14,7 @@ sub init()
       title: "Art of Motion"
     },
     {
-      dash: "http://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
+      dash: "https://bitmovin-a.akamaihd.net/content/sintel/sintel.mpd",
       title: "Sintel"
     }
   ]
