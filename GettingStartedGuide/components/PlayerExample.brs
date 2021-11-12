@@ -27,8 +27,7 @@ sub onLoadStatusChanged()
       adaptation: {
         preload: true
       },
-      ' key: "YOUR_LICENCE_KEY" ' The licence key is only required here if it wasn't added in the manifest as described in step 1.
-    }
+      ' key: "YOUR_LICENCE_KEY" ' The licence key is only required here if it wasn't added in the manifest
 
     ' Pass the created player config to the player using the setup call.
     m.bitmovinPlayer.callFunc(m.BitmovinFunctions.SETUP, m.playerConfig)
